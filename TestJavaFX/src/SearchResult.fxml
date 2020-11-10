@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="366.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchResultController">
+   <children>
+      <ImageView fitHeight="366.0" fitWidth="649.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" layoutX="182.0" layoutY="270.0" mnemonicParsing="false" onAction="#back" prefHeight="44.0" prefWidth="285.0" text="Back and Search Again" textFill="#261c1cec">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="Download" layoutX="205.0" layoutY="102.0" mnemonicParsing="false" onAction="#download" prefHeight="65.0" prefWidth="240.0" text="Download">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
